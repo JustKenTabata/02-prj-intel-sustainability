@@ -9,6 +9,11 @@ header {
 	text-align: center;
 }
 
+header p:hover {
+	font-size: 1.4rem;
+  transition: font-size 0.4s ease;
+}
+
 header div {
 	display: flex;
 	flex-direction: column;
@@ -26,7 +31,6 @@ header h1 {
 	font-size: 2.2rem;
 	margin: 0 0 8px 0;
   color: #fff; /* White heading */
-  transition : font-size 0.5s;
 }
 
 header p {
