@@ -10,7 +10,7 @@ header {
 }
 
 header p:hover {
-	font-size: 1.4rem;
+	font-size: 80px;
   transition: font-size 0.4s ease;
 }
 
@@ -30,14 +30,14 @@ header img {
 header h1 {
 	font-size: 2.2rem;
 	margin: 0 0 8px 0;
-  color: #fff; /* White heading */
+	color: #111; /* Black heading */
 }
 
 header p {
 	font-size: 1.1rem;
 	max-width: 500px;
 	margin: 0 auto;
-	color: #fff; /* White text for description */
+	color: #111; /* Black text for description */
 	font-family: 'Rubik', Arial, sans-serif; /* Google Font for header description */
 }
 
